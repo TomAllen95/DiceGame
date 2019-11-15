@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+}
+
+#diceImage {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+    border-radius: 13%;
+}
+
+
+/* this is the restart */
+
+.button {
+    font-size: 50px;
+    margin-top: 15px;
+    visibility: hidden;
+}
+
+.playerScores {
+    padding: 20px;
+}
+
+
+/* this is the roll dice button */
+
+#button {
+    font-size: 50px;
+    margin-top: 15px;
+}
